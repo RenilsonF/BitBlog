@@ -1,0 +1,117 @@
+/* Limpar formatação padrão */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+
+/*
+  ##### layout #####
+*/
+#cabecalho {
+    background-color: #566573;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu {
+    padding: 10px;
+}
+
+#area-menu {
+    font-weight: bold;
+}
+
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+#lateral {
+    width: 240px;
+    float: right;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #D5D8DC;
+}
+
+.conteudo-lateral {
+    background: #D5D8DC;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#rodape {
+    background: #ccc;
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+/*
+  ##### Formatação Menu #####
+*/
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link, a:visited {
+    color: #34495E;
+}
+ 
+a:hover {
+    color: #566573;
+    background-color: #AEB6BF;
+}
+
+#cabecalho a:link, #cabecalho a:visited {
+    color: #83cde6;
+    padding: 8px 12px;
+}
+ 
+#cabecalho a:hover {
+    color: #566573;
+    background-color: #83cde6;
+}
+
+
+/*
+  ##### Formatações Gerais #####
+*/
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+} 
+
+h2 {
+    color: #566573;
+}
+
+.data-post {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.nome-blog {
+    color: #83cde6;
+}
