@@ -38,7 +38,7 @@ body {
     float: left;
 }
 
-#lateral {
+#area-lateral {
     width: 240px;
     float: right;
 }
@@ -53,6 +53,12 @@ body {
     background: #D5D8DC;
     padding: 10px;
     margin-bottom: 20px;
+}
+
+.post-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #85929E;
 }
 
 #rodape {
@@ -96,12 +102,23 @@ a:hover {
 */
 
 h1 {
-    color: #4e4e4e;
+    /*color: #4e4e4e;*/
+    color: #85929E;
     font-size: 2.5em;
 } 
 
 h2 {
     color: #566573;
+}
+
+h3 {
+    color: #566573;
+    background: #AEB6BF;
+    padding: 5px;
+}
+
+p {
+    text-align: justify;
 }
 
 .data-post {
